@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEGA MEDYA GRUP | Global Media & Advertising</title>
+  <meta name="description" content="Dünyanın en büyük markalarına yön veren global medya ve reklam ajansı.">
+  
+  <!-- CSS Dosya Bağlantısı -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Premium Fontlar (CSS aşamasında kullanacağız) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="scene">
+  <div id="cube">
+    <div class="face" data-face="top" data-i="0"><span class="face-ph">VİZYON</span></div>
+    <div class="face" data-face="front" data-i="1"><span class="face-ph">STRATEJİ</span></div>
+    <div class="face" data-face="right" data-i="2"><span class="face-ph">İNOVASYON</span></div>
+    <div class="face" data-face="back" data-i="3"><span class="face-ph">ETKİ</span></div>
+    <div class="face" data-face="left" data-i="4"><span class="face-ph">GÜÇ</span></div>
+    <div class="face" data-face="bottom" data-i="5"><span class="face-ph">KÜRESEL</span></div>
+  </div>
+</div>
+
+<div id="hud">
+  <div id="hud_pct">000%</div>
+  <div class="progress-bar">
+    <div class="progress-fill" id="prog_fill"></div>
+  </div>
+  <div class="scene-label" id="scene_name">DEGA MEDYA</div>
+</div>
+
+<button id="theme_toggle" aria-label="Toggle light/dark mode">
+  <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+    <circle cx="12" cy="12" r="4" />
+    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+  </svg>
+  <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" />
+  </svg>
+</button>
+
+<div id="scene_strip">
+  <a href="#s0" class="scene-dot active"></a>
+  <a href="#s1" class="scene-dot"></a>
+  <a href="#s2" class="scene-dot"></a>
+  <a href="#s3" class="scene-dot"></a>
+  <a href="#s4" class="scene-dot"></a>
+  <a href="#s5" class="scene-dot"></a>
+  <a href="#s6" class="scene-dot"></a>
+  <a href="#s7" class="scene-dot"></a>
+  <a href="#s8" class="scene-dot"></a>
+  <a href="#s9" class="scene-dot"></a>
+  <a href="#s10" class="scene-dot"></a>
+  <a href="#s11" class="scene-dot"></a>
+</div>
+
+<div id="face_caption">
+  <div id="face_caption_num">01</div>
+  <div id="face_caption_name">KÜRESEL ETKİ</div>
+</div>
+
+<div id="scroll_container">
+
+  <section id="s0">
+    <div class="text-card">
+      <div class="tag">DEGA MEDYA GRUP — Küresel Ajans Ağı</div>
+      <h1>YAPISAL <br>OTORİTE<br></h1>
+      <p class="body-text">
+        Dijital ve geleneksel medyanın sınırlarını yeniden çiziyoruz. Dünyanın en büyük markalarına, veriye dayalı stratejiler ve kusursuz yaratıcılıkla yön veriyoruz. Hikayeniz buradan başlıyor.
+      </p>
+      <div class="cta-row">
+        <a class="cta" href="#s1">
+          Keşfet
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s1">
+    <div class="text-card right">
+      <div class="h-line"></div>
+      <div class="tag">01 — Strateji</div>
+      <h2>KURALLARI<br>YENİDEN<br>YAZIYORUZ</h2>
+      <p class="body-text">
+        Sıradan olanı reddediyoruz. Pazar dinamiklerini değiştiren, tüketici davranışlarını şekillendiren ve markaları bulundukları sektörün mutlak lideri yapan derin içgörüler üretiyoruz.
+      </p>
+      <div class="cta-row">
+        
+        <a class="cta-back" href="#s0">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s2">
+          İleri
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s2">
+    <div class="text-card">
+      <div class="h-line"></div>
+      <div class="tag">02 — İnovasyon</div>
+      <h2>VERİ &<br>YARATICILIK</h2>
+      <p class="body-text">
+        Sadece estetik değil, performans odaklı çalışıyoruz. Global ölçekte ses getiren dev kampanyaların ardında, analitik düşünce yapımız ve sınır tanımayan hayal gücümüz yatar.
+      </p>
+      <div class="cta-row">
+        <a class="cta-back" href="#s1">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s3">
+          İleri
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s3">
+    <div class="text-card right">
+      <div class="h-line"></div>
+      <div class="tag">03 — 360° İletişim</div>
+      <h2>SINIRSIZ<br>ETKİ<br>ALANI</h2>
+      <p class="body-text">
+        Büyük fikirlerin coğrafyası yoktur. 150’yi aşkın influencer kadrosuyla stratejik marketing, 30 prestijli sayfayla anında etkileşim ve 4K prodüksiyon gücümüzle; mesajınızı en doğru kitleyle, en etkili platformda, en doğru zamanda buluşturuyoruz. Etki alanımız sınır tanımıyor
+      </p>
+      <div class="stat-row" style="justify-content: flex-end">
+        <div class="stat">
+          <span class="stat-num">50+</span>
+          <span class="stat-label">Ülke</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">360</span>
+          <span class="stat-label">Derece</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">1</span>
+          <span class="stat-label">Vizyon</span>
+        </div>
+      </div>
+      <div class="cta-row">
+        <a class="cta-back" href="#s2">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s4">
+          İleri
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s4">
+    <div class="text-card">
+      <div class="h-line"></div>
+      <div class="tag">04 — Liderlik</div>
+      <h2>SEKTÖRE<br>YÖN<br>VERENLER</h2>
+      <p class="body-text">
+        Biz trendleri takip etmeyiz, trendleri yaratırız. Medya satın almasından kreatif prodüksiyona kadar her adımda kusursuzluk arıyor, markalarımızı her zaman bir adım önde tutuyoruz.
+      </p>
+      <div class="cta-row">
+        <a class="cta-back" href="#s3">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s5">
+          İleri
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s5">
+    <div class="text-card right">
+      <div class="h-line"></div>
+      <div class="tag">05 — Hedef Kitle</div>
+      <h2>MİLYONLARA<br>ULAŞAN<br>FİKİRLER</h2>
+      <p class="body-text">
+        Mesajınızın yankı bulması için doğru frekansı ayarlıyoruz. Stratejilerimiz, kitleleri harekete geçiren, kalıcı bağlar kuran ve sadakat yaratan deneyimler üzerine inşa edilmiştir.
+      </p>
+      <div class="cta-row">
+        <a class="cta-back" href="#s4">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s6">
+          İleri
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s6">
+    <div class="text-card">
+      <div class="h-line"></div>
+      <div class="tag">06 — Prodüksiyon</div>
+      <h2>KUSURSUZ<br>GÖRSEL<br>DENEYİM</h2>
+      <p class="body-text">
+        Her kare, her saniye, her piksel markanızın hikayesini anlatır. Endüstrinin en yüksek standartlarında görsel ve işitsel şaheserler üreterek markanızın prestijini zirveye taşıyoruz.
+      </p>
+      <div class="cta-row">
+        <a class="cta-back" href="#s5">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s7">
+          İleri
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s7">
+    <div class="text-card right">
+      <div class="h-line"></div>
+      <div class="tag">07 — Medya Planlama</div>
+      <h2>DOĞRU YER<br>DOĞRU<br>ZAMAN</h2>
+      <p class="body-text">
+        Yatırımlarınızın maksimum getiri sağlaması için devasa medya ağımızı kullanıyoruz. Veri destekli kararlarla, en optimize ve ses getiren medya satın alımlarını gerçekleştiriyoruz.
+      </p>
+      <div class="cta-row">
+        <a class="cta-back" href="#s6">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s8">
+          İleri
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s8">
+    <div class="text-card">
+      <div class="h-line"></div>
+      <div class="tag">08 — Dijital Dönüşüm</div>
+      <h2>GELECEĞİ<br>BUGÜNDEN<br>YAKALAYIN</h2>
+      <p class="body-text">
+        İnovasyon, DNA'mızın temel bir parçası. İleri düzey algoritmalar, yapay zeka ve sürükleyici dijital deneyimlerle markanızı modern çağın ötesine, geleceğin merkezine taşıyoruz.
+      </p>
+      <div class="cta-row">
+        <a class="cta-back" href="#s7">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s9">
+          İleri
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s9">
+    <div class="text-card right">
+      <div class="h-line"></div>
+      <div class="tag">09 — Marka Kimliği</div>
+      <h2>UNUTULMAZ<br>HİKAYELER<br>YARATIN</h2>
+      <p class="body-text">
+        İnsanlar sadece ürün satın almazlar; vizyona, duyguya ve hikayelere inanırlar. Biz, markanızın gerçek ruhunu ortaya çıkaran ve nesiller boyu hatırlanacak güçlü miraslar inşa ediyoruz.
+      </p>
+      <div class="cta-row">
+        <a class="cta-back" href="#s8">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s10">
+          İleri
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s10">
+    <div class="text-card">
+      <div class="h-line"></div>
+      <div class="tag">10 — Küresel Ağ</div>
+      <h2>DÜNYA<br>ÇAPINDA<br>GÜÇ</h2>
+      <p class="body-text">
+        Lokal pazarın dinamiklerini küresel bir vizyonla harmanlıyoruz. Dünyanın hangi noktasında faaliyet gösterirseniz gösterin, arkanızda pazarın kurallarını koyan bir medya devi var.
+      </p>
+      <div class="cta-row">
+        <a class="cta-back" href="#s9">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s11">
+          İletişim
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="s11">
+    <div class="text-card right">
+      <div class="h-line"></div>
+      <div class="tag">11 — Bize Ulaşın</div>
+      <h2>DEGA MEDYA<br>GRUP<br>İLETİŞİM</h2>
+      <p class="body-text">
+        Markanızı global bir güce dönüştürmek için hazırız. Dünyanın en büyük ajans ağına katılın ve değişimi başlatın.<br><br>
+        <strong>E-Posta:</strong> contact@degamedyagrup.com<br>
+        <strong>Telefon:</strong> 0535 885 56 85<br>
+        <strong>Instagram:</strong> @degamedyagrup
+      </p>
+      <div class="stat-row" style="justify-content: flex-end">
+        <div class="stat">
+          <span class="stat-num">7/24</span>
+          <span class="stat-label">Destek</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">1</span>
+          <span class="stat-label">Merkez</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">∞</span>
+          <span class="stat-label">Vizyon</span>
+        </div>
+      </div>
+      <div class="cta-row">
+        <a class="cta-back" href="#s10">
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M11 6H1M6 11L1 6l5-5" />
+          </svg>
+          Geri
+        </a>
+        <a class="cta" href="#s0">
+          Başa Dön
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M1 6h10M6 1l5 5-5 5" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<div id="credit">
+  <a href="mailto:contact@degamedyagrup.com" target="_blank" rel="noopener">© 2026 DEGA MEDYA GRUP. Tüm Hakları Saklıdır.</a>
+</div>
+
+<!-- JS Dosya Bağlantısı -->
+<script src="script.js"></script>
+</body>
+</html>
